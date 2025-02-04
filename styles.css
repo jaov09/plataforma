@@ -1,5 +1,5 @@
 /* Reset básico */
-body, h1, h2, p, ul, li, form {
+body, h1, h2, h3, p, ul, li, form {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -48,6 +48,64 @@ section {
 section h2 {
     margin-bottom: 10px;
     color: #003366;
+}
+
+#oportunidades ul {
+    list-style: none;
+}
+
+#oportunidades li {
+    margin-bottom: 10px;
+}
+
+#oportunidades a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#oportunidades a:hover {
+    text-decoration: underline;
+}
+
+#mapa-interativo {
+    height: 300px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#trabalhos ul {
+    list-style: none;
+}
+
+#trabalhos li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #003366;
+    border-radius: 4px;
+}
+
+#trabalhos h3 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+#trabalhos p {
+    margin-bottom: 10px;
+}
+
+#trabalhos a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#trabalhos a:hover {
+    text-decoration: underline;
 }
 
 form label {
