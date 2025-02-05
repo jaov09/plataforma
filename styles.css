@@ -37,18 +37,6 @@ header h1 {
     width: 200px;
 }
 
-.search-bar button {
-    padding: 10px;
-    background-color: #003366;
-    color: #fff;
-    border: none;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-}
-
-.search-bar button:hover {
-    background-color: #002244;
-}
 nav ul {
     list-style: none;
     display: flex;
